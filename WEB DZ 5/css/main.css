@@ -1,0 +1,101 @@
+a:link
+{
+	color: red;
+	font-size: large;
+}
+a:visited
+{
+	color: black;
+}
+a:hover
+{
+	color: pink;
+	font-weight: bold;
+	font-size: small;
+}
+
+a:active
+{
+	color: black;
+}
+
+
+
+
+
+div.task31 > p:first-child
+{
+	color: red;
+}
+
+div.task31 > p:first-child>i:first-child
+{
+	color: darkgreen;
+}
+
+div.task32 > p:first-child>i
+{
+	color: darkgreen;
+}
+
+div.task4 > ul > li:first-child
+{
+	color:purple;
+	font-size: larger;
+	font-weight:bold;
+}
+
+div.task5 > ul > li:last-child
+{
+	color:purple;
+	font-weight:bold;
+	font-size: larger;
+}
+
+div.task6 > span,div em 
+{
+  padding: 5px;
+  border: 1px solid green;
+  display: inline-block;
+  margin-bottom: 3px;
+}
+
+div.task61 > span:nth-child(2n + 1)
+{
+  background-color: lime;
+}
+
+div.task62 > span:nth-child(2n + 1)
+{
+  background-color: lime;  
+}
+
+div.task62 > h1::before
+{
+	 content: url('../img/dog.png'); 
+}
+
+div.task62 > a::after 
+{   
+    content: url('../img/dog.png');
+}
+
+div.task62 > div::first-line { 
+    color: red;   
+}
+
+div.container > h1
+{
+	color: blue;
+}
+
+div.container > h2
+{
+	background-color: blue;
+	color: white;
+}
+
+div.container > p > span
+{
+	font-size: 200%;
+}

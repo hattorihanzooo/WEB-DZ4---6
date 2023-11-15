@@ -1,0 +1,81 @@
+body {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+main, article, section {
+    display: block;
+}
+nav > ul > li {
+    background-color: greenyellow;
+    display: inline;
+}
+section {
+    left: 0;
+    width: 660px;
+    margin: 20px;
+}
+aside {
+    left: 0;
+    width: 300px;
+    margin: 30px 30px;
+    text-indent: 20px;
+    background-color: lightcoral;
+}
+.first {
+    width: 330px;
+    padding: 30px;
+    border: 40px solid purple;
+    margin: 0;
+}
+.second {
+    width: 330px;
+    border: 40px solid purple;
+    margin: 0;
+}
+.third {
+    width: 330px;
+    padding: 30px;
+    border: 40px solid purple;
+    margin: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box
+}
+.fourth {
+    width: 330px;
+    padding: 30px;
+    border: 40px solid purple;
+    margin: 0;
+    box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+}
+img {
+    width: 330px;
+    padding: 30px;
+    border: 40px solid purple;
+    box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    display: block;
+    margin: 0 auto;
+}
+#txt1 {
+    padding: 10px;
+    border: 2px solid;
+    background-color: grey;
+}
+#txt2 {
+    padding: 10px;
+    margin: 20px;
+    border: 2px solid;
+    background-color: grey;
+}
+#txt3 {
+    display: inline-block;
+    padding: 10px;
+    background-color: grey;
+    border: 2px solid;
+}
+
